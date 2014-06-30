@@ -1,6 +1,5 @@
 .info_para{ padding-bottom:20px; line-height:1.25em;}
 .form_secondary{ padding-top:20px;}
-.form_details_part{ width:50%; float:left;}
 .sub_label{ font-size:14px; font-family: 'BnppSans-l', arial;}
 .non_input{padding: 0.62em 0;}
 .form_input_btn{ margin-left:12px; display:inline-block;}
@@ -18,6 +17,23 @@ ul.table_switch li{padding:0 10px;}
 .table_content ul{ background:#f4f5f6;}
 .table_content ul:nth-child(odd){ background:#ffffff;}
 .table_content ul li{font-family: 'BnppSans-l', arial;}
+
+.modify_lnk{ display:inline-block; margin-left:80px;}
+
+.slr{ overflow:hidden;}
+.slr .module_content{
+    scrollbar-arrow-color:white;
+    scrollbar-darkshadow-color:white;
+    scrollbar-highlight-color:;
+    scrollbar-shadow-color:;
+}
+
+/*Switch button*/
+.switch_container{ border:1px solid #d8dbde; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px; display:table; background:#ffffff; }
+.switch_btn_align{ padding:6px 20px; color:#252429; cursor:pointer; }
+.switch_btn{ float:left; }
+.switch_btn_align.active{ background:#009966; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px; color:#ffffff !important; }
+.switch_btn_align:hover{ color:#008578; }
 
 
 @media all and (max-width:767px){

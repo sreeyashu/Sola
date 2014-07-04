@@ -35,6 +35,10 @@ ul.table_switch li{padding:0 10px;}
 .switch_btn_align.active{ background:#009966; border-radius:20px; -moz-border-radius:20px; -webkit-border-radius:20px; color:#ffffff !important; }
 .switch_btn_align:hover{ color:#008578; }
 
+/* list details */
+.list_details.total{ font-size:20px;}
+.list_details.total .details_label{ width:29.4%; line-height:1.25em}
+.list_details .yash{ margin-left:60px;}
 
 @media all and (max-width:767px){
 	.form_input_btn{ margin:10px 0 0 0; float:right;}

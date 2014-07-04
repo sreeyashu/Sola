@@ -772,6 +772,7 @@ input[type="checkbox"]:focus, button:focus{outline:#008578 solid 1px !important;
 .listitem_details span{ float:left;}
 .balance_details p{ width:100%;}
 
+
 /* Detail screen with boder bottom for each Item */
 .border_list, .border_bottom{ padding:1.25em 0; border-bottom:1px solid #d8dbde;}
 

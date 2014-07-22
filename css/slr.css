@@ -1,6 +1,6 @@
 .info_para{ padding-bottom:20px; line-height:1.25em;}
 .form_secondary{ padding-top:20px;}
-.sub_label{ font-size:14px; font-family: 'BnppSans-l', arial;}
+.sub_label{ font-size:14px; font-family: 'light', arial;}
 .non_input{padding: 0.62em 0;}
 .form_input_btn{ margin-left:12px; display:inline-block;}
 
@@ -8,7 +8,7 @@
 /* Custom table */
 .custom_table{ border:1px dotted #d8dbde;}
 .custom_table ul{display:table; width:100%;}
-.custom_table ul li{display:table-cell; padding:14px; text-align:center; vertical-align:middle; font-family: 'BnppSans-r', arial; width:20%;}
+.custom_table ul li{display:table-cell; padding:14px; text-align:center; vertical-align:middle; font-family: 'regular', arial; width:20%;}
 .table_header{ background:#d2d8e1;}
 ul.table_switch{ font-size:14px; padding-top:8px;list-style:disc; text-align:center;}
 ul.table_switch li{padding:0 10px;}
@@ -16,7 +16,7 @@ ul.table_switch li{padding:0 10px;}
 .table_switch li:first-child{ border-right:1px dotted #252429;}
 .table_content ul{ background:#f4f5f6;}
 .table_content ul:nth-child(odd){ background:#ffffff;}
-.table_content ul li{font-family: 'BnppSans-l', arial;}
+.table_content ul li{font-family: 'light', arial;}
 
 .modify_lnk{ display:inline-block; margin-left:80px;}
 
@@ -40,6 +40,9 @@ ul.table_switch li{padding:0 10px;}
 .list_details.total .details_label{ width:29.4%; line-height:1.25em}
 .list_details .yash{ margin-left:60px;}
 
+.fav_icon{ cursor:pointer;}
+
+.pad-20{ padding:20px;}
 @media all and (max-width:767px){
 	.form_input_btn{ margin:10px 0 0 0; float:right;}
 }

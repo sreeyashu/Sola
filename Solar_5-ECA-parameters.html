@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Loan simulation</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/slr.css">
+		<link rel="stylesheet" href="css/fonticon.css">
+		<link rel="stylesheet" href="css/defined.css">
+	</head>
+	<body>
+		<div class="portal_wrapper">
+		<div class="ml_simulation">
+			<div class="ml_sim_inner">
+				<div class="form_inner module_bg form-50 clearfix">
+					<h4 class="form_title">Project parameters</h4>
+					<div class="pad-t30 clearfix">
+						<div class="l_col s_row">
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-goal"><span>Project goal</span><span>*</span></label>
+								</div>
+								<div class="form_details">
+									<p class="field_error_message">Please select the valid Account</p>
+									<!-- Selectize Dropdown has to come here -->
+								</div>
+							</div>
+							<div class="form_fields text_input">
+								<div class="form_labels">
+									<label for="select-tax">Purchase taxation type</label>
+								</div>
+								<div class="form_details field_space">
+									<div class="l_col pad_0">
+										<input type="radio" name="select-tax"/>
+										<label>VAT</label>
+									</div>
+									<div class="l_col pad_0">
+										<input type="radio" name="select-tax"/>
+										<label>Registration fee</label>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-price">Purchase price</label>
+									<p class="sub_label">
+										<span>(</span>
+										<span>Including registration rights</span>
+										<span>)</span>
+									</p>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-price"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-plan">Financial plan</label>
+								</div>
+								<div class="form_details">
+									<!-- New Switch code has to be Intrgrated here -->
+									<div class="switch_container">
+										<div class="ios-switch">
+											<div class="on-background background-fill"></div>
+											<div class="state-background background-fill"></div>
+											<div class="handle"></div>
+										</div>
+									</div>
+									<span class="switch_status">Yes</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="plan_yes hide">
+						<div class="l_col s_row">
+							<h2 class="form_group_title">Cost of the project</h2>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-cost">Property cost</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-cost"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-rights">Registration rights</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<!-- Dropdown code has to be integrated here -->
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label>Registration rights cost</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_space">
+										<span>333.70</span><span class="space_left">EUR</span>
+									</p>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label>Notary purchase costs</label>
+									<p class="sub_label">
+										<span>(</span>
+										<span>estimation</span>
+										<span>)</span>
+									</p>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_space">
+										<span>333.70</span><span class="space_left">EUR</span>
+									</p>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label>Credit note costs</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_space">
+										<span>3335.70</span><span class="space_left">EUR</span>
+									</p>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-admincost">Administration costs</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-admincost"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields border_top">
+								<div class="form_labels">
+									<label >Total project costs</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_space highlight_text">
+										<span>3335.70</span><span class="space_left">EUR</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="l_col s_row">
+							<h2 class="form_group_title">Financing means</h2>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-fund">Own funds</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-fund"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-credits">Other credits</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-credits"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-loan">Bridging loan</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-loan"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-loan">Mortage loan</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-loan"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label>Total project costs</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_space highlight_text">
+										<span>3335.70</span><span class="space_left">EUR</span>
+									</p>
+								</div>
+							</div>
+							<div class="form_fields border_top">
+								<div class="form_labels">
+									<label>Total project financing</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_space highlight_text">
+										<span>3335.70</span><span class="space_left">EUR</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="plan_no">
+						<div class="l_col s_row">
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-bloan">Bridge loan</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-bloan"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields">
+								<div class="form_labels">
+									<label for="select-mloan">Mortage loan</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_error_message">Please enter valid amount</p>
+									<div class="form_input default_input_control">
+										<div class="default_input_field ">
+											<input type="tel" id="select-mloan"/>
+											<span>EUR</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_fields border_top">
+								<div class="form_labels">
+									<label>Total amount to borrow</label>
+								</div>
+								<div class="form_details text_input">
+									<p class="field_space highlight_text">
+										<span>333.70</span><span class="space_left">EUR</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="action_btns module_bg">
+					<div class="right_navigation_btn f_right">
+						<button class="btn_default btn_primary f_right">Confirm</button>
+						<button class="btn_default btn_secondary">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

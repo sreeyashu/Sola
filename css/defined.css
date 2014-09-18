@@ -1,0 +1,9 @@
+.form_group_title{
+	font-family:'regular', Arail;
+	padding-bottom:15px;
+	border-bottom:1px solid #d8dbde;
+	margin-bottom:15px;
+}
+
+.switch_status{ display:table-cell; vertical-align:middle; padding-left:20px;}
+.switch_container{ display:table-cell;}

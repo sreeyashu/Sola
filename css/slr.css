@@ -29,7 +29,7 @@
 .pad-r50{ padding-top:50px;}
 
 .pad-b10{ padding-right:10px;}
-.pad-b15{ padding-right:15px !important;}
+.pad-b15{ padding-bottom:15px !important;}
 .pad-b20{ padding-top:20px;}
 .pad-b25{ padding-top:25px;}
 .pad-b30{ padding-top:30px;}
@@ -70,5 +70,6 @@
 .form-50 .form_details{
 	width:100%;
 }
+.pad-30{ padding:10px;}
 }
 

@@ -7,3 +7,15 @@
 
 .switch_status{ display:table-cell; vertical-align:middle; padding-left:20px;}
 .switch_container{ display:table-cell;}
+
+.content_title{ margin-bottom:30px;}
+
+.content_inner{
+	padding:30px;
+}
+
+@media (max-width: 47.9375em){
+	.content_inner{
+		padding:10px;
+	}
+}

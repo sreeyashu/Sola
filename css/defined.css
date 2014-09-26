@@ -43,11 +43,11 @@
 .overviewdetails .l_col{ padding-bottom:0}
 .overviewdetails .l_col .details_label,.overviewdetails .l_col .listitem_details{ width:50%;}
 
-.table-details  > tbody > tr > td:nth-of-type(1){ max-width:100px}
+.table-details  > tbody > tr > td:nth-of-type(1){width:30%}
 
 @media (max-width: 47.9375em){
 	.content_inner{
 		padding:10px;
 	}
-	.table-details  > tbody > tr > td:nth-of-type(1){ max-width:initial;}
+	.table-details  > tbody > tr > td:nth-of-type(1){ width:auto;}
 }

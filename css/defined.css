@@ -18,4 +18,36 @@
 	.content_inner{
 		padding:10px;
 	}
+	.table-details  > tbody > tr > td:nth-of-type(1){ max-width:initial;}
+}
+
+.portal_wrapper label{ font-family:'regular'}
+
+.table ul{ margin-bottom:20px;}
+.table ul:last-child{ margin:0;}
+
+.table-zebraStriped > tbody > tr > td:nth-of-type(even) , .table-zebraStriped > tbody > tr > td:nth-of-type(even)  { background-color:#f4f5f6; }
+.table-compare > tbody > tr > td:nth-of-type(1){ background:#e5e9ef;}
+.table_title{ font-family:'regular'; margin-bottom:15px;}
+
+.overviewdetails{
+	background-color:#e5e9ef;
+	padding:30px;
+	margin-bottom:20px;
+	border:1px solid #d8dbde;
+}
+.overviewdetails .details{
+	background: none
+}
+.overviewdetails .details:nth-of-type(1) .list_details:nth-child(1){ padding-top:0;}
+.overviewdetails .l_col{ padding-bottom:0}
+.overviewdetails .l_col .details_label,.overviewdetails .l_col .listitem_details{ width:50%;}
+
+.table-details  > tbody > tr > td:nth-of-type(1){ max-width:100px}
+
+@media (max-width: 47.9375em){
+	.content_inner{
+		padding:10px;
+	}
+	.table-details  > tbody > tr > td:nth-of-type(1){ max-width:initial;}
 }

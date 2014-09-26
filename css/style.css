@@ -4722,7 +4722,7 @@ input[type="checkbox"]:focus, button:focus {
   width: 30%;
   float: left;
   font-family: 'regular', arial;
-  margin-right: 1.56em;
+  padding-right: 1.56em;
 }
 
 .list_details {
@@ -4800,6 +4800,7 @@ input[type="checkbox"]:focus, button:focus {
 
   .details_label {
     width: 100%;
+	padding-right:0;
   }
 
   .list_detail_header.exp {
@@ -7644,12 +7645,12 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
   border: 1px dotted #d8dbde;
+  margin-bottom:20px;
 }
 
 thead {
-  background: #d2d8e1;
+  background: #e5e9ef;
   font-family: 'regular', arial;
 }
 
@@ -7671,7 +7672,7 @@ thead {
 }
 
 .table > tbody + tbody {
-  border-top: 2px solid #dddddd;
+  border-top: 1px solid #dddddd;
 }
 
 .table .table {
@@ -7687,7 +7688,7 @@ thead {
 }
 
 .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
-  border: 1px solid #dddddd;
+  border: 1px solid #d8dbde;
 }
 
 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
@@ -7695,9 +7696,8 @@ thead {
 }
 
 .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #f1f1f1;
+  background-color: #f4f5f6;
 }
-
 .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
   background-color: whitesmoke;
 }

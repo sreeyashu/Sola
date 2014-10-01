@@ -45,6 +45,10 @@
 
 .table-details  > tbody > tr > td:nth-of-type(1){width:30%}
 
+
+/*30 sep*/
+.table caption{padding:20px 10px; font-family:'regular'}
+
 @media (max-width: 47.9375em){
 	.content_inner{
 		padding:10px;

@@ -30,13 +30,13 @@
 
 .pad-b10{ padding-right:10px;}
 .pad-b15{ padding-bottom:15px !important;}
-.pad-b20{ padding-top:20px;}
-.pad-b25{ padding-top:25px;}
-.pad-b30{ padding-top:30px;}
-.pad-b35{ padding-top:35px;}
-.pad-b40{ padding-top:40px;}
-.pad-b45{ padding-top:45px;}
-.pad-b50{ padding-top:50px;}
+.pad-b20{ padding-bottom:20px;}
+.pad-b25{ padding-bottom:25px;}
+.pad-b30{ padding-bottom:30px;}
+.pad-b35{ padding-bottom:35px;}
+.pad-b40{ padding-bottom:40px;}
+.pad-b45{ padding-bottom:45px;}
+.pad-b50{ padding-bottom:50px;}
 
 .pad-10{ padding:10px;}
 .pad-15{ padding:15px !important;}

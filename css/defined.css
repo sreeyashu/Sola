@@ -10,6 +10,7 @@
 
 .content_title{ margin-bottom:30px;}
 
+
 .content_inner{
 	padding:30px;
 }
@@ -50,7 +51,13 @@
 .table caption{padding:20px 10px; font-family:'regular'}
 
 /* certificate */
+.content_group_title{margin-bottom:25px;font-family:'regular', Arail;}
+.content_group{ padding-bottom:30px; margin-bottom:30px; border-bottom:1px solid #d8dbde; display:table; width:100%;}
+.content_group:nth-last-of-type(1){ padding-bottom:0; margin-bottom:0; border:none;}
 
+.input_inline{ width:33.333333333%; float:left; padding-right:5px; padding-left:5px;}
+.input_inline:nth-of-type(1){ padding-left:0;}
+.input_inline:nth-last-of-type(1){ padding-right:0;}
 
 @media (max-width: 47.9375em){
 	.content_inner{

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Loan simulation</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/slr.css">
+		<link rel="stylesheet" href="css/fonticon.css">
+        <link rel="stylesheet" href="css/defined.css">
+	</head>
+	<body>
+		<div class="portal_wrapper">
+		<div class="ml_simulation">
+			<div class="ml_sim_inner">
+				<div class="module_content module_bg">
+                	<div class="content_inner">
+                	<div class="three_column">
+                    	<div class="content_group">
+                            <h2 class="content_group_title">Household 1 composition</h2>
+                            <div class="form_fields">
+                                <div class="section field_space">
+                                    <label for="labelCustomerID">Customer ID</label>
+                                </div>
+                                <div class="section">
+                                    <div class="default_input_control">
+											<div class="default_input_field">
+												<input type="text" spellcheck="false" name="labelCustomerID" id="labelCustomerID"/>
+												<span class="fontcon-close search_wipe"></span>
+												<span class="search_icon">
+                                                	<span class="fontcon-search"></span>
+                                                </span>
+											</div>
+										</div>
+                                </div>
+                                <div class="section">
+                                    <div class="default_input_control">
+											<div class="default_input_field">
+												<input type="text" spellcheck="false"  name="labelCustomerID" id="labelCustomerID"/>
+												<span class="fontcon-close search_wipe"></span>
+												<span class="search_icon">
+                                                	<span class="fontcon-search"></span>
+                                                </span>
+											</div>
+										</div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="section field_space">
+                                    <label for="firstName">First name, family name and birth date</label>
+                                </div>
+                                <div class="section">
+                                   <div class="input_inline">
+                                   		<div class="default_input_field ">
+                                                <input type="text" name="firstName" id="firstName"/>
+                                            </div>
+                                   </div>
+                                   <div class="input_inline">
+                                   		<div class="default_input_field ">
+                                                <input type="text" name="firstName" id="firstName"/>
+                                            </div>
+                                   </div>
+                                   <div class="input_inline">
+                                   		<div class="default_input_field ">
+                                                <input type="tel"name="firstName" id="firstName"/>
+                                            </div>
+                                   </div>
+                                </div>
+                                <div class="section">
+                                     <div class="input_inline">
+                                   		<div class="default_input_field ">
+                                                 <input type="text" name="firstName" id="firstName"/>
+                                            </div>
+                                   </div>
+                                   <div class="input_inline">
+                                   		<div class="default_input_field ">
+                                                 <input type="text" name="firstName" id="firstName"/>
+                                            </div>
+                                   </div>
+                                   <div class="input_inline">
+                                   		<div class="default_input_field ">
+                                                 <input type="text" name="firstName" id="firstName"/>
+                                            </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_group">
+                            <h2 class="content_group_title">Household 1 revenues</h2>
+                            <div class="form_fields">
+                                <div class="section field_space">
+                                    <label for="inputMonthlyIncome">Monthly fixed net income</label>
+                                    <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputMonthlyIncome" id="inputMonthlyIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputMonthlyIncome" id="inputMonthlyIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                <label for="inputAnnualIncome">Annual variable net income</label>
+                                <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputAnnualIncome" id="inputAnnualIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputAnnualIncome" id="inputAnnualIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                    <label for="inputVochers">Meal vochers</label>
+                                </div>
+                                <div class="section field_space" name="inputVochers" id="inputVochers">
+                                    <span>
+                                        <input type="checkbox"/>
+                                        <label>Yes</label>
+                                    </span>
+                                    <span class="header_xtrInformation">
+                                        <input type="checkbox"/>
+                                        <label>No</label>
+                                    </span>
+                                </div>
+                                <div class="section field_space">
+                                    <span>
+                                        <input type="checkbox"/>
+                                        <label>Yes</label>
+                                    </span>
+                                    <span class="header_xtrInformation">
+                                        <input type="checkbox"/>
+                                        <label>No</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                    <label for="inputIncome">Company car</label>
+                                </div>
+                                <div class="section">
+                                    <!-- Dropdown code -->
+                                </div>
+                                <div class="section">
+                                   <!-- Dropdown code -->
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                    <label for="inputRentIncome">Current monthly rent income</label>
+                                    <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputRentIncome" id="inputRentIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputRentIncome" id="inputRentIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                	<label for="inputEstimateIncome">Future estimated monthly rent income</label>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputEstimateIncome" id="inputEstimateIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputEstimateIncome" id="inputEstimateIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                	<label for="inputAlmounyIncome">Monthly almouny income</label>
+                                    <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputAlmounyIncome" id="inputAlmounyIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputAlmounyIncome" id="inputAlmounyIncome"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_group">
+                            <h2 class="content_group_title">Household 1 credit expenses in house</h2>
+                            <div class="form_fields">
+                                <div class="section field_space">
+                                    <label for="inputMortageCredit">Monthly mortage credit charges</label>
+                                    <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputMortageCredit" id="inputMortageCredit"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                <label for="inputInstallmentCredit">Monthly installment credit charges</label>
+                                <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputInstallmentCredit" id="inputInstallmentCredit"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                <label for="inputOtherCredit">Other monthly credit charges</label>
+                                <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputOtherCredit" id="inputOtherCredit"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                        </div>
+                        <div class="content_group">
+                            <h2 class="content_group_title">Household 1 credit expenses at other bank</h2>
+                            <div class="form_fields">
+                                <div class="section field_space">
+                                    <label for="inputMortageCredit">Monthly mortage credit charges at other bank</label>
+                                    <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputMortageCredit" id="inputMortageCredit"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                <label for="inputInstallmentCredit">Monthly installment credit charges at other bank</label>
+                                <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputInstallmentCredit" id="inputInstallmentCredit"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                <label for="inputOtherCredit">Other monthly credit charges</label>
+                                <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputOtherCredit" id="inputOtherCredit"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="content_group">
+                            <h2 class="content_group_title">Household 1 other expenses</h2>
+                            <div class="form_fields">
+                                <div class="section field_space">
+                                    <label for="inputOtherRent">Monthly rent charges</label>
+                                    <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputOtherRent" id="inputOtherRent"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                <label for="inputOtherAlimony">Monthly alimony</label>
+                                <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <p class="field_error_message">Please enter valid amount</p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field ">
+                                            <input type="tel" name="inputOtherAlimony" id="inputOtherAlimony"/>
+                                            <span>EUR</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="section field_space">
+                                <label for="inputOtherChildren">Number of dependent children</label>
+                                <span class="fontcon-information help_icon"></span>
+                                </div>
+                                <div class="section">
+                                    <!-- Dropdown -->
+                                </div>
+                                <div class="section"></div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+                 <div class="action_btns navigation_btns">
+                    	<div class="right_navigation_btn f_right">
+                        	<button class="btn_default btn_primary f_right">Calculate</button>
+                            <button class="btn_default btn_secondary">Cancel</button>
+                        </div>
+                        <div class="left_navigation_btn f_left">
+                            <button class="btn_default btn_secondary">Add household</button>
+                        </div>
+                    </div>
+                </div>
+               </div>
+			</div>
+		</div>
+	</body>
+</html>

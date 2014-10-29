@@ -1,83 +1,8 @@
-.form_category{
-	margin-bottom:30px;
-	}
-	.form_category:last-child{
-	margin-bottom:0;
-	}
-.overlay{ overflow:scroll}
+/*oct 28*/
 
-
-
-.form_group_title{
-	font-family:'regular', Arail;
-	padding-bottom:15px;
-	border-bottom:1px solid #d8dbde;
-	margin-bottom:15px;
+.sub_info{
+	padding-top:6px;
 }
-
-.switch_status{ display:table-cell; vertical-align:middle; padding-left:20px;}
-.switch_container{ display:table-cell;}
-
-.content_title{ margin-bottom:30px;}
-
-
-.content_inner{
-	padding:30px;
-}
-
-@media (max-width: 47.9375em){
-	.content_inner{
-		padding:10px;
-	}
-	.table-details  > tbody > tr > td:nth-of-type(1){ max-width:initial;}
-}
-
-.portal_wrapper label{ font-family:'regular'}
-
-.table ul{ margin-bottom:20px;}
-.table ul:last-child{ margin:0;}
-
-.table-zebraStriped > tbody > tr > td:nth-of-type(even) , .table-zebraStriped > tbody > tr > td:nth-of-type(even)  { background-color:#f4f5f6; }
-.table-compare > tbody > tr > td:nth-of-type(1){ background:#e5e9ef;}
-.table_title{ font-family:'regular'; margin-bottom:15px;}
-
-.overviewdetails{
-	background-color:#e5e9ef;
-	padding:30px;
-	margin-bottom:20px;
-	border:1px solid #d8dbde;
-}
-.overviewdetails .details{
-	background: none
-}
-.overviewdetails .details:nth-of-type(1) .list_details:nth-child(1){ padding-top:0;}
-.overviewdetails .l_col{ padding-bottom:0}
-.overviewdetails .l_col .details_label,.overviewdetails .l_col .listitem_details{ width:50%;}
-
-.table-details  > tbody > tr > td:nth-of-type(1){width:30%}
-
-
-/*30 sep*/
-.table caption{padding:20px 10px; font-family:'regular'}
-
-/* certificate */
-.content_group_title{margin-bottom:25px;font-family:'regular', Arail;}
-.content_group{ padding-bottom:30px; margin-bottom:30px; border-bottom:1px solid #d8dbde; display:table; width:100%;}
-.content_group:nth-last-of-type(1){ padding-bottom:0; margin-bottom:0; border:none;}
-
- 
-.three_column .column{ width:33.333333333%; float:left; padding-right:5px; padding-left:5px;}
-.two_column .column{ width:50%; float:left; padding:0 5px;}
-.three_column .column:nth-of-type(1), .two_column .column:nth-of-type(1){ padding-left:0;}
-.three_column .column:nth-last-of-type(1), .two_column .column:nth-last-of-type(1){ padding-right:0;}
-
-input:-webkit-autofill {
-	background-color:red !important;
-	-webkit-box-shadow: 0 0 0px 1000px red inset;
-}
-@media (max-width: 47.9375em){
-	.content_inner{
-		padding:10px;
-	}
-	.table-details  > tbody > tr > td:nth-of-type(1){ width:auto;}
+.sub_info .header_xtrInformation:first-child{
+	margin:0;
 }

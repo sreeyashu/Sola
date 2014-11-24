@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Loan simulation</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/slr.css">
+		<link rel="stylesheet" href="css/fonticon.css">
+		<link rel="stylesheet" href="css/defined.css">
+	</head>
+	<body>
+		<div class="portal_wrapper">
+		<div class="ml_simulation">
+			<div class="ml_sim_inner">
+				<div class="form_inner module_content clearfix form-50">
+					<div class="content_title">
+						<h2>Refinancing</h2>
+						<p class="module_operation_title">Add credit</p>
+					</div>
+					<div class="two_column clearfix">
+						<div class="section">
+                        	<div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="custom-credit"><span>Custom credit label</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="custom-credit" id="custom-credit"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="estimated-property"><span>Estimated property value</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="estimated-property" id="estimated-property"/>
+                                            <span>EUR</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="original-amount"><span>Original amount borrowed</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="original-amount" id="original-amount"/>
+                                            <span>EUR</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="original-duration"><span>Original duration</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="original-duration" id="original-duration"/>
+                                            <span>Months</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="yearly-interest"><span>Yearly interest rate</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="yearly-interest" id="yearly-interest"/>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="monthly-interest"><span>Monthly interest rate</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="monthly-interest" id="monthly-interest"/>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                            	<div class="form_labels">
+                                    <label for="monthly-interest"><span>Monthly interest rate</span><span>*</span></label>
+                                </div>
+                                <div class="form_details field_space">
+                                	<span>
+                                    	<input type="radio" name="fin-plan" class="css-checkbox" id="rate-type-fix"/>
+                                        <label class="css-label radio" for="rate-type-fix">Fix</label>
+                                    </span><span>
+                                    	<input type="radio" name="fin-plan" class="css-checkbox" id="rate-type-variable"/>
+                                        <label class="css-label radio" for="rate-type-variable">Variable</label>
+                                    </span>
+                                </div>
+                            </div>
+						</div>
+						<div class="section">
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="bank"><span>Bank</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="bank" id="bank"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="remaining-capital"><span>Remaining capital</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="remaining-capital" id="remaining-capital"/>
+                                            <span>EUR</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="remaining-interest"><span>Remaining interest</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="remaining-interest" id="remaining-interest"/>
+                                            <span>EUR</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_fields">
+                                <div class="form_labels">
+                                    <label for="remaining-duration"><span>Remaining duration</span><span>*</span></label>
+                                </div>
+                                <div class="form_details">	
+                                    <p class="field_error_message"></p>
+                                    <div class="default_input_control text_input">
+                                        <div class="default_input_field">
+                                            <input type="tel" name="remaining-duration" id="remaining-interest"/>
+                                            <span>Months</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+                    <h5>* Mandatory field</h5>
+				</div>
+				<div class="action_btns module_bg">
+					<div class="right_navigation_btn f_right">
+						<button class="btn_default btn_primary f_right">Confirm</button>
+						<button class="btn_default btn_secondary">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Loan simulation</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/slr.css">
+		<link rel="stylesheet" href="css/fonticon.css">
+		<link rel="stylesheet" href="css/defined.css">
+	</head>
+	<body>
+		<div class="portal_wrapper">
+		<div class="ml_simulation">
+			<div class="ml_sim_inner">
+            	<div class="module_content">
+                    <div class="form_inner clearfix form-50">
+                        <div class="content_title">
+                            <h2>Flexible credit</h2>
+                        </div>
+                        <div class="two_column clearfix">
+                            <div class="content_group">
+                                <h2 class="content_group_title">Initial credit information</h2>
+                                <div class="section">
+                                    <div class="form_fields">
+                                        <div class="form_labels">
+                                            <label for="borrowed-amount">Borrowed amount</label>
+                                        </div>
+                                        <div class="form_details">	
+                                            <p class="field_error_message"></p>
+                                            <div class="default_input_control text_input">
+                                                <div class="default_input_field">
+                                                    <input type="tel" id="borrowed_amount"/>
+                                                    <span>EUR</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form_fields">
+                                        <div class="form_labels">
+                                            <label for="flexible-duration">Duration</label>
+                                        </div>
+                                        <div class="form_details">	
+                                            <p class="field_error_message">Error</p>
+                                            <div class="default_input_control text_input">
+                                                <div class="default_input_field">
+                                                    <input type="tel" id="flexible-duration"/>
+                                                    <span>Months</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="details">
+                                        <div class="form_fields">
+                                            <div class="form_labels">
+                                                <label for="annaul-interest">Annual interest rate</label>
+                                            </div>
+                                           <div class="form_details">	
+                                                <p class="field_error_message">error</p>
+                                                <div class="default_input_control text_input">
+                                                    <div class="default_input_field">
+                                                        <input type="tel" id="annaul-interest"/>
+                                                        <span>%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form_fields">
+                                            <div class="form_labels">
+                                                <label for="monthly-interest">Monthly interest rate</label>
+                                            </div>
+                                            <div class="form_details">	
+                                                <p class="field_error_message">error</p>
+                                                <div class="default_input_control text_input">
+                                                    <div class="default_input_field">
+                                                        <input type="tel" id="monthly-interest"/>
+                                                        <span>%</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section">
+                                    <div class="form_fields invisible">
+                                            <div class="form_labels">
+                                                <label>Dummy</label>
+                                            </div>
+                                            <div class="form_details">
+                                                <div class="default_input_control text_input">
+                                                    <div class="default_input_field">
+                                                        <input type="tel"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form_fields invisible">
+                                            <div class="form_labels">
+                                                <label>Dummy</label>
+                                            </div>
+                                            <div class="form_details">
+                                                <div class="default_input_control text_input">
+                                                    <div class="default_input_field">
+                                                        <input type="tel"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <div class="form_fields">
+                                        <div class="form_labels">
+                                            <label>Monthly repayment</label>
+                                        </div>
+                                        <div class="form_details field_space">
+                                            <p class="highlight_text"><span>128.00</span><span class="space_left">EUR</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="form_fields">
+                                        <div class="form_labels">
+                                            <label>Total interest to be paid</label>
+                                        </div>
+                                        <div class="form_details field_space">
+                                            <p class="highlight_text"><span>128.00</span><span class="space_left">EUR</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <h2 class="content_group_title">Initial credit information</h2>
+                                <div class="section">
+                                    <div class="form_fields">
+                                        <div class="form_labels">
+                                            <label for="borrowed_amount">Borrowed amount</label>
+                                        </div>
+                                        <div class="form_details field_space">	
+                                            <span>
+                                                <input type="radio" name="repayment" class="css-checkbox" id="repayment_1"/>
+                                                <label class="css-label radio" for="repayment_1">1</label>
+                                            </span>
+                                            <span class="pad-l15">
+                                                <input type="radio" name="repayment" class="css-checkbox" id="repayment_2"/>
+                                                <label class="css-label radio" for="repayment_2">2</label>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content_group">
+                                <div class="change1 clearfix">
+                                            <h2 class="content_group_title">Change 2</h2>
+                                            <div class="section">
+                                                <div class="form_fields">
+                                                    <div class="form_labels">
+                                                        <label>Changes made after</label>
+                                                    </div>
+                                                    <div class="form_details">	
+                                                        <p class="field_error_message">Error</p>
+                                                        <div class="default_input_control text_input">
+                                                            <div class="default_input_field">
+                                                                <input type="tel"/>
+                                                                <span>Months</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="details">
+                                                    <div class="form_fields">
+                                                        <div class="form_labels">
+                                                            <label>Preffered new monthly repayment</label>
+                                                        </div>
+                                                       <div class="form_details">	
+                                                            <p class="field_error_message">error</p>
+                                                            <div class="default_input_control text_input">
+                                                                <div class="default_input_field">
+                                                                    <input type="tel"/>
+                                                                    <span>EUR</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="form_fields">
+                                                    <div class="form_labels">
+                                                        <label>New total duration</label>
+                                                    </div>
+                                                    <div class="form_details field_space">
+                                                        <p class="highlight_text"><span>231</span><span class="space_left">Months</span></p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="details">
+                                                    <div class="form_fields">
+                                                        <div class="form_labels">
+                                                            <label>New monthly repayment</label>
+                                                        </div>
+                                                       <div class="form_details field_space">
+                                                            <p class="highlight_text"><span>128.00</span><span class="space_left">EUR</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <div>	
+                                    </div>
+                                </div>
+                                <div class="change2 pad-t30 clearfix">
+                                            <h2 class="content_group_title">Change 2</h2>
+                                            <div class="section">
+                                                <div class="form_fields">
+                                                    <div class="form_labels">
+                                                        <label>Changes made after</label>
+                                                    </div>
+                                                    <div class="form_details">	
+                                                        <p class="field_error_message">Error</p>
+                                                        <div class="default_input_control text_input">
+                                                            <div class="default_input_field">
+                                                                <input type="tel"/>
+                                                                <span>Months</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="details">
+                                                    <div class="form_fields">
+                                                        <div class="form_labels">
+                                                            <label>Preffered new monthly repayment</label>
+                                                        </div>
+                                                       <div class="form_details">	
+                                                            <p class="field_error_message">error</p>
+                                                            <div class="default_input_control text_input">
+                                                                <div class="default_input_field">
+                                                                    <input type="tel"/>
+                                                                    <span>EUR</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="section">
+                                                <div class="form_fields">
+                                                    <div class="form_labels">
+                                                        <label>New total duration</label>
+                                                    </div>
+                                                    <div class="form_details field_space">
+                                                        <p class="highlight_text"><span>231</span><span class="space_left">Months</span></p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="details">
+                                                    <div class="form_fields">
+                                                        <div class="form_labels">
+                                                            <label>New monthly repayment</label>
+                                                        </div>
+                                                       <div class="form_details field_space">
+                                                            <p class="highlight_text"><span>128.00</span><span class="space_left">EUR</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <div>	
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content_group">
+                                    <h2 class="content_group_title">Results</h2>
+                                    <div class="section">
+                                        <div class="form_fields">
+                                            <div class="form_labels">
+                                                <label>Interest to pay</label>
+                                            </div>
+                                            <div class="form_details">	
+                                                <p class="field_error_message">Error</p>
+                                                <div class="default_input_control text_input">
+                                                    <div class="default_input_field">
+                                                        <input type="tel"/>
+                                                        <span>EUR</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="details">
+                                            <div class="form_fields">
+                                                <div class="form_labels">
+                                                    <label>Savings in interest to pay</label>
+                                                </div>
+                                               <div class="form_details">	
+                                                    <p class="field_error_message">error</p>
+                                                    <div class="default_input_control text_input">
+                                                        <div class="default_input_field">
+                                                            <input type="tel"/>
+                                                            <span>EUR</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div>	
+                            </div>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="action_btns module_bg">
+                        <div class="right_navigation_btn f_right">
+                            <button class="btn_default btn_primary f_right">Print</button>
+                            <button class="btn_default btn_secondary">Cancel</button>
+                        </div>
+                    </div>
+                    <div class="form_inner rich_text">
+                    	<div class="region">
+                        	<h3>*Conditions apply</h3>
+                            <p>The initial rate remains as actual interest rate. At least 25% of the original duration needs to remain after the reduction of the duration.</p>
+                            <p>Extending the duration is only allowed for credits with a variable interest rate formula. Maximum duration extension is set at 5 years. The total duration of the credits needs to remian at least 10 years.</p>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</body>
+</html>

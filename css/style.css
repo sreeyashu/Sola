@@ -4008,8 +4008,10 @@ tbody.collapse.in {
   max-width: 70%;
 }
 .list_content_col2 h3 {
+	/*Yash*/
   font-size: 1.12em;
   line-height: 1em;
+  display:inline-block;
 }
 .list_content_col2 p {
   font-size: 0.87em;
@@ -4017,6 +4019,7 @@ tbody.collapse.in {
   padding-top: 0.57em;
   line-height: 1.07em;
 }
+.ls_block{ display:inline-block;margin-right:15px; vertical-align:middle;}
 .list_content_col2 span {
   padding-left: 0.28em;
 }

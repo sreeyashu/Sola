@@ -69,3 +69,13 @@
 	}
 	.action_blocks h2, .action_blocks p{ height:auto!important;margin-bottom:10px;}
 }
+
+.extra_popover{
+	padding:9px 12px;
+	background:#ccc; 
+	display:inline-block; 
+	height:34px; 
+	vertical-align:top;
+	font-size:1em;
+	cursor:pointer;
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Loan simulation</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/slr.css">
+		<link rel="stylesheet" href="../css/fonticon.css">
+        <link rel="stylesheet" href="../css/defined.css">
+	</head>
+	<body>
+		<div class="portal_wrapper">
+			<div class="ml_simulation">
+				<div class="ml_sim_inner">
+					<div class="module_main_header h_functions">
+						<div class="module_header">
+							<div class="module_header__inner">
+								<div class="h_col">
+									<div class="module_hcontent f_left">
+										<h2 class="module_title">Mortage loan simulation</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="module_content form_container module_bg">
+						<form action="">
+							<div class="form_inner">
+								<p class="info_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+								<div class="error_summary">
+									<p class="field_error_message" style="display:block;">Please select the valid Account</p>
+								</div>
+								<div class="form_primary">
+									<div class="form_fields from_field field_error">
+										<div class="form_labels">
+											<label>What would you like to do</label>
+											<span>:</span>
+										</div>
+										<div class="form_details">
+											<!-- Dropdown comp -->
+										</div>
+									</div>
+									<div class="form_fields text_input">
+										<div class="form_labels">
+											<label>What is the value of the property</label>
+											<span>*:</span>
+											<p class="sub_label"><span>(</span><span>without costs</span><span>)</span></p>
+										</div>
+										<div class="form_details">
+											<div class="default_input_field ">
+												<input class="number-type" type="tel"/>
+												<span>EUR</span> 
+											</div>
+										</div>
+									</div>
+									<div class="form_fields text_input border_bottom">
+										<div class="form_labels">
+											<label>Amount you would like to borrow</label>
+											<span>*:</span>
+										</div>
+										<div class="form_details">
+											<div class="default_input_field ">
+												<input class="number-type" type="tel"/>
+												<span>EUR</span> 
+											</div>
+										</div>
+										<div class="form_input_btn">
+											<button class="btn_default btn_secondary">Calculate</button>
+										</div>
+									</div>
+								</div>
+								<div class="form_secondary">
+									<div class="form_fields">
+										<div class="form_labels">
+											<label><span>Your deposit</span><span>:</span></label>
+										</div>
+										<div class="form_details">
+											<p class="highlight_text non_input"><span>125</span><span class="space_left">EUR</span></p>
+										</div>
+									</div>
+									<div class="form_fields text_input">
+										<div class="form_labels">
+											<label><span>Is this a single mortage</span><span>:</span></label>
+										</div>
+										<div class="form_details radio_box">
+											<div class="form_details_part">
+												<input type="radio" name="x" value="no"/>
+												<span>Yes, it's just me</span>
+											</div>
+											<div class="form_details_part">
+												<input type="radio" name="x" value="mortage_plan"/>
+												<span>No, joint mortage</span>
+											</div>
+										</div>
+									</div>
+									<div class="mortage_plan">
+										<div class="form_fields">
+											<div class="form_labels">
+												<label><span>First name</span><span>:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="text"/> 
+												</div>
+											</div>
+										</div>
+										<div class="form_fields">
+											<div class="form_labels">
+												<label><span>Family name</span><span>:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="text"/> 
+												</div>
+											</div>
+										</div>
+										<div class="form_fields date_picker">
+											<div class="form_labels">
+												<label><span>Date of birth</span><span>:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="text" placeholder="DD/MM/YYYY"/> 
+													<span class="trig_datepicker" data-provide="datepicker-inline">
+													<span class="fontcon-calendar"></span>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form_inner form_btns action_btns">
+								<div class="navigation_btns">
+									<div class="right_navigation_btn f_right">
+										<button class="btn_default btn_primary">
+										<span>Make simulation</span>
+										</button>
+									</div>
+								</div>
+							</div>
+					</form>
+                    </div>
+				</div>
+			</div>
+			<div class="overlay">
+				<div class="overlay_inner large" style="display:block">
+					<div class="overlay_container" >
+						<!--popup headiing-->
+						<div class="overlay_header">
+							<div class="overlay_header_inner clearfix">
+								<h2 class="overlay_title">Calculate</h2>
+								<span>How much do I need to borrow for my project?<span>(Buy)</span></span>
+							</div>
+							<span class="fontcon-close overlay_close"></span>
+						</div>
+						 <div class="overlay_content">
+                        	<form action="">
+							<div class="content_page content_overlay">
+								
+									<div class="error_summary">
+										<p class="field_error_message" style="display:block;">Please select the valid Account</p>
+									</div>
+									<div class="form_category">
+										<h2 class="form_category_title">Purchase costs:</h2>
+										<div class="form_fields">
+											<div class="form_labels">
+												<label><span>What would you like to do</span><span>:</span></label>
+											</div>
+											<div class="form_details text_input">
+												<div class="default_input_field ">
+													<input class="number-type" type="tel"/>
+													<span>EUR</span> 
+												</div>
+											</div>
+										</div>
+										<div class="form_fields text_input">
+											<div class="form_labels">
+												<label><span>What is the value of the property</span><span>*:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="switch_container">
+													<span class=" switch_btn_align f_left yes active">Yes</span>
+													<span class="switch_btn_align no f_left">No</span>
+												</div>
+											</div>
+										</div>
+										<div class="form_fields text_input">
+											<div class="form_labels">
+												<label><span>What would you like to do</span><span>:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="tel"/>
+													<span>EUR</span> 
+												</div>
+											</div>
+										</div>
+										<div class="form_fields text_input to_field">
+											<div class="form_labels">
+												<label><span>Amount you would like to borrow</span><span>*:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="tel"/>
+													<span>EUR</span> 
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="form_category">
+										<h2 class="form_category_title">Purchase costs:</h2>
+										<div class="form_fields">
+											<div class="form_labels">
+												<label><span>What would you like to do</span><span>:</span></label>
+											</div>
+											<div class="form_details text_input">
+												<div class="default_input_field ">
+													<input class="number-type" type="tel"/>
+													<span>EUR</span> 
+												</div>
+											</div>
+										</div>
+										<div class="form_fields text_input">
+											<div class="form_labels">
+												<label><span>What is the value of the property</span><span>*:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="tel"/>
+													<span>EUR</span> 
+												</div>
+											</div>
+										</div>
+										<div class="form_fields text_input">
+											<div class="form_labels">
+												<label><span>What would you like to do</span><span>:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="tel"/>
+													<span>EUR</span> 
+												</div>
+											</div>
+										</div>
+										<div class="form_fields text_input">
+											<div class="form_labels">
+												<label><span>What would you like to do</span><span>:</span></label>
+											</div>
+											<div class="form_details">
+												<div class="default_input_field ">
+													<input class="number-type" type="tel"/>
+													<span>EUR</span> 
+												</div>
+											</div>
+										</div>
+									</div>
+							</div>
+							<div class="form_btns action_btns module_bg">
+                                <div class="navigation_btns">
+                                    <div class="right_navigation_btn f_right">
+                                    	<span class="lnk_primary">Cancel</span>
+                                        <button class="btn_default btn_primary">Calculate</button>
+                                    </div>
+                                </div>
+							</div>
+						
+						</form>
+                        </div>
+                        <div class="overlay_content details">
+                        	<form action="">
+							<div class="details_inner">
+            	<div class="detail_group">
+                	<h5 class="detail_group_title">Beneficiary info:</h5>
+                	<div class="list_details">
+                        <label class="details_label">Name</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details">
+                        <label class="details_label">Address</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                            <span class="yash">(Flemish)</span>
+                        </div>
+                	</div>
+                    <div class="list_details">
+                        <label class="details_label">Address</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details total">
+                        <label class="details_label">Total Investments</label>
+                        <div class="listitem_details">
+                            <p class="highlight_text"><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                </div>
+                <div class="detail_group">
+                	<h5 class="detail_group_title">Invoice detial:</h5>
+                	<div class="list_details">
+                        <label class="details_label">Document reference number</label>
+                        <div class="listitem_details">
+                           <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details">
+                        <label class="details_label">Due date</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details">
+                        <label class="details_label">Document date</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details total">
+                        <label class="details_label">Total Investments</label>
+                        <div class="listitem_details">
+                            <p class="highlight_text"><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                </div>
+                <div class="detail_group">
+                	<h5 class="detail_group_title">Transaction detail</h5>
+                	<div class="list_details">
+                        <label class="details_label">Beneficiary account number</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details">
+                        <label class="details_label">Sender account number</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details">
+                        <label class="details_label">Amount</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details">
+                        <label class="details_label">Communication</label>
+                        <div class="listitem_details">
+                            <p><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                    <div class="list_details total">
+                        <label class="details_label">Total Investments</label>
+                        <div class="listitem_details">
+                            <p class="highlight_text"><span>150,000</span><span class="space_left">EUR</span></p>
+                        </div>
+                	</div>
+                </div>
+            </div>
+							<div class="form_btns action_btns module_bg">
+                                <div class="navigation_btns">
+                                    <div class="right_navigation_btn f_right">
+                                    	<span class="lnk_primary">Modify</span>
+                                        <button class="btn_default btn_primary">Use it in simulation</button>
+                                    </div>
+                                </div>
+							</div>
+						
+						</form>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

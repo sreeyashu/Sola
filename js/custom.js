@@ -20,4 +20,24 @@ $(document).ready(function () {
 		});
 		$('.action_blocks p').outerHeight(height);
 	});
+	$('.extra_popover').popover({
+		placement: 'bottom',
+		html:'true',
+		content: '<button class="yashu">dnjh</button>',
+		title:'',
+		
+	});
+	$(function(){
+		$.fn.editable.defaults.mode = 'inline';
+		$(document).on("click", ".yashu", function(e) {
+			e.stopPropagation();
+			$('.list_header_title').editable('toggle');
+			$('.list_header_title').parent().parent().addClass('panda');
+		});
+		$(document).on('click', '.editable-cancel, .editable-submit', function(){
+			
+		})
+	});
+	
+	
 });

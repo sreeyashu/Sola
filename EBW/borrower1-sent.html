@@ -1,0 +1,313 @@
+<div class="simulation"><!--This class should be used as WCM entry point class-->
+    <div class="simulation_inner"><!--Upto here div with classes are same for all the Simulation IA-->
+        <div class="module_main_header">
+            <div class="module_header h_services">
+                <div class="module_header__inner">
+                    <div class="title_coulmn">
+                        <div class="module_hcontent f_left">
+                            <h2 class="module_title">Housing credit simualtion</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="module_content form_container">
+            <form>
+                <div class="form_inner form-50">
+                    <div class="error_summary">
+                        <p class="field_error_message">Please correct the following</p>
+                        <ul class="error_summary_items">
+                            <li>hgg</li>
+                            <li>jkhfjd</li>
+                        </ul>
+                    </div>
+                    <div class="form_fields">
+                        <label class="form_labels">Do you need co-borrower?</label>
+                        <div class="form_details field_space">
+                            <span>
+                                <input type="radio" class="css-checkbox" id="borrower_yes" name="select-borrower">
+                                <label class="css-label radio" for="borrower_yes">Yes</label>
+                            </span>
+                            <span class="pad-l10">
+                                <input type="radio" class="css-checkbox" id="borrower_no" name="select-borrower">
+                                <label class="css-label radio" for="borrower_no">No</label>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content_group pad-t20 borrower_income">
+                        <h2 class="content_group_title">Borrower income</h2>
+                        <div class="form_fields">
+                            <label class="form_labels" for="borrowerName">Borrower name</label>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid name</p>
+                                <div class="default_input_control">
+                                    <div class="default_input_field ">
+                                        <input type="tel" name="borrowerName" id="borrowerName">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <label class="form_labels" for="borrowerFamilyName">Family name</label>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid name</p>
+                                <div class="default_input_control">
+                                    <div class="default_input_field ">
+                                        <input type="tel" name="borrowerFamilyName" id="borrowerFamilyName">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="monthlyIncome"><span>Fixed monthly net income</span><span>*</span></label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="monthlyIncome" id="monthlyIncome">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="annualIncome"><span>Net annual income variables</span><span>*</span></label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="annualIncome" id="annualIncome">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <label class="form_labels">Meal vochers</label>
+                            <div class="form_details field_space">
+                                <span>
+                                    <input type="radio" class="css-checkbox" id="mealVoch_yes" name="select-voucher">
+                                    <label class="css-label radio" for="mealVoch_yes">Yes</label>
+                                </span>
+                                <span class="pad-l10">
+                                    <input type="radio" class="css-checkbox" id="mealVoch_no" name="select-voucher">
+                                    <label class="css-label radio" for="mealVoch_no">No</label>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <label class="form_labels">Company car</label>
+                            <div class="form_details">
+                                <!--Dropdown comp-->
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="monthlyRents">Current monthly rents</label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="monthlyRents" id="monthlyRents">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="otherMonthlyIncome">Other monthly income</label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="otherMonthlyIncome" id="otherMonthlyIncome">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_group coborrower_income">
+                        <h2 class="content_group_title">Co-borrower income</h2>
+                        <div class="form_fields">
+                            <label class="form_labels" for="coBorrowerName">Co-Borrower name</label>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid name</p>
+                                <div class="default_input_control">
+                                    <div class="default_input_field ">
+                                        <input type="tel" name="coBorrowerName" id="coBorrowerName">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <label class="form_labels" for="coBorrowerFamilyName">Co-borrower Family name</label>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid name</p>
+                                <div class="default_input_control">
+                                    <div class="default_input_field ">
+                                        <input type="tel" name="coBorrowerFamilyName" id="coBorrowerFamilyName">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="coMonthlyIncome"><span>Fixed monthly net income</span><span>*</span></label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="coMonthlyIncome" id="coMonthlyIncome">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="coAnnualIncome"><span>Net annual income variables</span><span>*</span></label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="coAnnualIncome" id="coAnnualIncome">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <label class="form_labels">Meal vochers</label>
+                            <div class="form_details field_space">
+                                <span>
+                                    <input type="radio" class="css-checkbox" id="coMealVoch_yes" name="select-covoucher">
+                                    <label class="css-label radio" for="mealVoch_yes">Yes</label>
+                                </span>
+                                <span class="pad-l10">
+                                    <input type="radio" class="css-checkbox" id="coMealVoch_yes" name="select-covoucher">
+                                    <label class="css-label radio" for="mealVoch_no">No</label>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <label class="form_labels">Company car</label>
+                            <div class="form_details">
+                                <!--Dropdown comp-->
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="coMonthlyRents">Current monthly rents</label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="coMonthlyRents" id="coMonthlyRents">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="coOtherMonthlyIncome">Other monthly income</label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="coOtherMonthlyIncome" id="coOtherMonthlyIncome">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_group">
+                        <h2 class="content_group_title">Family responsibilities</h2>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="monthlyCreditCharges">Monthly charges credits</label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="monthlyCreditCharges" id="monthlyCreditCharges">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <div class="form_labels">
+                            <label for="monthlyExpenses">Other monthly expenses</label><span class="fontcon-information help_icon"></span>
+                            </div>
+                            <div class="form_details">
+                                <p class="field_error_message">Please enter valid amount</p>
+                                <div class="default_input_control text_input">
+                                    <div class="default_input_field">
+                                        <input type="tel" name="monthlyExpenses" id="monthlyExpenses">
+                                        <span>EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_fields">
+                            <label class="form_labels">Number of dependent children</label>
+                            <div class="form_details">
+                                <!--Dropdown comp-->
+                            </div>
+                        </div>
+                        <h5>*Required fields</h5>
+                        <div class="navigation_btns">
+                            <div class="right_navigation_btn f_right">
+                                <button class="btn_default btn_primary">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal in" aria-hidden="false" style="display:block">
+                    <div class="modal-dialog">
+                        <div class="overlay_container small modal-content">
+                            <!--popup headiing-->
+                            <div class="overlay_header">
+                                <div class="overlay_header_inner clearfix">
+                                    <h2 class="overlay_title">Formulaes selected</h2>
+                                </div>
+                                <span class="fontcon-close overlay_close"></span>
+                            </div>
+                             
+                             <div class="overlay_content content_inner rich_text">
+                                <div class="region">
+                                    <h4 class="highlight_text">Are you sure you want to remove the co-borrower?</h4>
+                                    <p class="pad-t30">If you remove the co-borrower, all the data related to that person will be deleted.</p>
+                                </div>
+                                <div class="overlay_btn">
+                                    <div class="navigation_btns">
+                                        <div class="right_navigation_btn f_right">
+                                            <button class="btn_default btn_primary f_right">Yes, delete</button>
+                                            <button class="btn_default btn_secondary">No, cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

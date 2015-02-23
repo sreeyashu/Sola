@@ -79,3 +79,14 @@
 	font-size:1em;
 	cursor:pointer;
 }
+
+
+.listtype_details .details_label{
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family:'light'
+}
+.listtype_details .list_details{
+	
+}

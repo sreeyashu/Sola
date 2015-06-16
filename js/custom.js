@@ -1,13 +1,7 @@
 $(document).ready(function () {
 	
-	$('.rasak').popover({
-	html:true,
-	content: function(){
-		return $(this).parent().find('.content').html();
-	},
-	container: '.rasak',
-	placement: 'bottom'
-	});
+	
+	$('.rasak').popover('show')
 	
 	$(function(){
    		var height = 0;
